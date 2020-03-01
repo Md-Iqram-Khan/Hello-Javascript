@@ -21,15 +21,8 @@ function prev(){
     if (count<0){
         count = photos.length - 1;
         imgTag.src = photos[count]
+    }else{
+        imgTag.src = photos[count];
     }
-    imgTag.src = photos[count];
-}
-
-function prev(){
-    count--;
-    if (count<0){
-        count = photos.length - 1;
-        imgTag.src = photos[count]
-    }
-    imgTag.src = photos[count];
+    
 }
